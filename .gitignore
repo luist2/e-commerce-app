@@ -1,0 +1,19 @@
+# Ignorar archivos y carpetas innecesarias
+.idea/
+*.iml
+*.log
+diagrams/
+
+
+# Build de Maven o Gradle
+target/
+build/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Configs de IDE
+*.ipr
+*.iws
+*.class
