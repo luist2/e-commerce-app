@@ -1,6 +1,6 @@
 ﻿# E-Commerce Microservices Project
 
-Proyecto de microservicios para una aplicación e-commerce, desarrollado con Spring Boot y tecnologías relacionadas.
+Proyecto de e-commerce desarrollado con arquitectura de microservicios utilizando Spring Boot, Docker, Kafka y más. Cada microservicio está desacoplado y especializado en un dominio particular, permitiendo escalar, mantener y desarrollar de forma independiente.
 
 ---
 
@@ -17,4 +17,5 @@ Proyecto de microservicios para una aplicación e-commerce, desarrollado con Spr
 | **Payment**         | Spring Web, JPA, Kafka, PostgreSQL, Eureka, Validation                                 |
 | **Notification**    | Spring Web, Kafka, Mail API, Eureka, Plantillas de email (Thymeleaf), Validation       |
 ---
+
 
