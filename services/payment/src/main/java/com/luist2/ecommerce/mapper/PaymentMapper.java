@@ -2,9 +2,9 @@ package com.luist2.ecommerce.mapper;
 
 import com.luist2.ecommerce.dto.payment.PaymentRequest;
 import com.luist2.ecommerce.entity.Payment;
+import org.springframework.stereotype.Component;
 
-import java.time.LocalDateTime;
-
+@Component
 public class PaymentMapper {
     public Payment toPayment(PaymentRequest paymentRequest) {
 
